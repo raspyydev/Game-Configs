@@ -1,0 +1,106 @@
+{
+  "scripts": {
+    "ARC Raiders/ARC Raiders.ps1": [
+      "%LOCALAPPDATA%\\PioneerGame"
+    ],
+    "Battlefield/Battlefield 1.ps1": [
+      "%USERPROFILE%\\Documents\\Battlefield 1"
+    ],
+    "Battlefield/Battlefield 3.ps1": [
+      "%USERPROFILE%\\Documents\\Battlefield 3"
+    ],
+    "Battlefield/Battlefield 4.ps1": [
+      "%USERPROFILE%\\Documents\\Battlefield 4"
+    ],
+    "Battlefield/Battlefield 6.ps1": [
+      "%USERPROFILE%\\Documents\\Battlefield 6",
+      "%USERPROFILE%\\OneDrive\\Documents\\Battlefield 6",
+      "%LOCALAPPDATA%\\Battlefield 6"
+    ],
+    "Battlefield/Battlefield Bad Company 2.ps1": [
+      "%USERPROFILE%\\Documents\\BFBC2"
+    ],
+    "Battlefield/Battlefield Hardline.ps1": [
+      "%USERPROFILE%\\Documents\\BFH"
+    ],
+    "Battlefield/Battlefield V.ps1": [
+      "%USERPROFILE%\\Documents\\Battlefield V"
+    ],
+    "Battlefield/Battlefield 2042.ps1": [
+      "%USERPROFILE%\\Documents\\Battlefield 2042"
+    ],
+    "Call of Duty/Call of Duty Vanguard.ps1": [
+      "%USERPROFILE%\\Documents\\Call of Duty Vanguard",
+      "%USERPROFILE%\\OneDrive\\Documents\\Call of Duty Vanguard"
+    ],
+    "Call of Duty/Call of Duty Modern Warfare 3 2023.ps1": [
+      "%ProgramFiles(x86)%\\Call of Duty\\_retail_\\cod.exe",
+      "%ProgramFiles%\\Call of Duty\\_retail_\\cod.exe",
+      "%USERPROFILE%\\Documents\\Call of Duty MWIII",
+      "%USERPROFILE%\\OneDrive\\Documents\\Call of Duty MWIII"
+    ],
+    "Call of Duty/Call of Duty Modern Warfare 2019.ps1": [
+      "%ProgramFiles(x86)%\\Call of Duty Modern Warfare\\ModernWarfare.exe",
+      "%ProgramFiles%\\Call of Duty Modern Warfare\\ModernWarfare.exe"
+    ],
+    "Call of Duty/Call of Duty Modern Warfare 2 2022.ps1": [
+      "%ProgramFiles(x86)%\\Call of Duty\\_retail_\\cod.exe",
+      "%ProgramFiles%\\Call of Duty\\_retail_\\cod.exe",
+      "%USERPROFILE%\\Documents\\Call of Duty MWII",
+      "%USERPROFILE%\\OneDrive\\Documents\\Call of Duty MWII"
+    ],
+    "Call of Duty/Call of Duty Black Ops Cold War.ps1": [
+      "%USERPROFILE%\\Documents\\Call Of Duty Black Ops Cold War",
+      "%USERPROFILE%\\OneDrive\\Documents\\Call Of Duty Black Ops Cold War"
+    ],
+    "Call of Duty/Call of Duty Black Ops 7.ps1": [
+      "%ProgramFiles(x86)%\\Call of Duty\\_retail_\\cod.exe",
+      "%ProgramFiles%\\Call of Duty\\_retail_\\cod.exe",
+      "%LOCALAPPDATA%\\Activision\\Call of Duty\\players",
+      "%USERPROFILE%\\Documents\\Call of Duty MWIII",
+      "%USERPROFILE%\\OneDrive\\Documents\\Call of Duty MWIII"
+    ],
+    "Call of Duty/Call of Duty Black Ops 6.ps1": [
+      "%ProgramFiles(x86)%\\Call of Duty\\_retail_\\cod.exe",
+      "%ProgramFiles%\\Call of Duty\\_retail_\\cod.exe",
+      "%USERPROFILE%\\Documents\\Call of Duty\\players",
+      "%USERPROFILE%\\OneDrive\\Documents\\Call of Duty\\players"
+    ],
+    "Call of Duty/Call of Duty Black Ops 4.ps1": [
+      "%ProgramFiles(x86)%\\Call of Duty Black Ops 4\\BlackOps4.exe",
+      "%ProgramFiles%\\Call of Duty Black Ops 4\\BlackOps4.exe"
+    ],
+    "Counter Strike 2/Counter Strike 2.ps1": [
+      "%ProgramFiles(x86)%\\Steam\\steamapps\\common\\Counter-Strike 2",
+      "%ProgramFiles(x86)%\\Steam\\steamapps\\common\\Counter-Strike Global Offensive"
+    ],
+    "Delta Force/Delta Force.ps1": [
+      "%LOCALAPPDATA%\\DeltaForce",
+      "%LOCALAPPDATA%\\Delta Force"
+    ],
+    "Frag Punk/Frag Punk.ps1": [
+      "%LOCALAPPDATA%\\FragPunk"
+    ],
+    "Marvel Rivals/Marvel Rivals.ps1": [
+      "%LOCALAPPDATA%\\Marvel"
+    ],
+    "PUBG BATTLEGROUNDS/PUBG BATTLEGROUNDS.ps1": [
+      "%LOCALAPPDATA%\\TslGame"
+    ],
+    "STAR WARS Battlefront/STAR WARS Battlefront I 2015.ps1": [
+      "%USERPROFILE%\\Documents\\STAR WARS Battlefront"
+    ],
+    "STAR WARS Battlefront/STAR WARS Battlefront II 2017.ps1": [
+      "%USERPROFILE%\\Documents\\STAR WARS Battlefront II"
+    ],
+    "Splitgate/Splitgate 1.ps1": [
+      "%LOCALAPPDATA%\\PortalWars"
+    ],
+    "Splitgate/Splitgate 2.ps1": [
+      "%LOCALAPPDATA%\\PortalWars2"
+    ],
+    "The Finals/The Finals.ps1": [
+      "%LOCALAPPDATA%\\Discovery"
+    ]
+  }
+}
