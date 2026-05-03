@@ -220,12 +220,10 @@ try {
     if ($localZip -and (Test-Path -LiteralPath $localZip)) {
         Copy-Item -LiteralPath $localZip -Destination $tempZip -Force
     } else {
-        # raspyydev/Game-Configs may not ship ARC Raiders.zip (404); FR33THY mirror matches legacy Freaky scripts.
+        # Prefer bundled ZIP next to script; otherwise download from raspyydev/Game-Configs (two URL shapes).
         $mirrorUrls = @(
             'https://github.com/raspyydev/Game-Configs/raw/refs/heads/main/ARC%20Raiders/ARC%20Raiders.zip',
-            'https://raw.githubusercontent.com/raspyydev/Game-Configs/main/ARC%20Raiders/ARC%20Raiders.zip',
-            'https://github.com/FR33THYFR33THY/Github-Game-Configs/raw/refs/heads/main/ARC%20Raiders/ARC%20Raiders.zip',
-            'https://raw.githubusercontent.com/FR33THYFR33THY/Github-Game-Configs/main/ARC%20Raiders/ARC%20Raiders.zip'
+            'https://raw.githubusercontent.com/raspyydev/Game-Configs/main/ARC%20Raiders/ARC%20Raiders.zip'
         )
         $downloadOk = $false
         foreach ($u in $mirrorUrls) {
