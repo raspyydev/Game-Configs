@@ -163,7 +163,7 @@ if ($env:BWO_UNATTENDED -ne '1') {
 Clear-Host
 
 # Config archive: prefer zip next to this script (bundled / import), else download from Game-Configs repo.
-$bo7ZipName = "Call of Duty Black Ops 7.zip"
+$bo7ZipName = "Call of Duty Black Ops 7/Warzone.zip"
 $tempZip = "$env:SystemRoot\Temp\BO7.zip"
 $tempDir = "$env:SystemRoot\Temp\BO7"
 $scriptPath = $MyInvocation.MyCommand.Path
@@ -205,7 +205,7 @@ if ($localZip -and (Test-Path -LiteralPath $localZip)) {
 Clear-Host
 
 if (-not (Test-Path -LiteralPath $tempZip) -or ((Get-Item -LiteralPath $tempZip).Length -lt 64)) {
-    Write-Host "Black Ops 7 config archive missing or empty." -ForegroundColor Red
+    Write-Host "Black Ops 7/Warzone config archive missing or empty." -ForegroundColor Red
     Write-Host "Add '$bo7ZipName' next to this script, or publish it at:" -ForegroundColor Yellow
     Write-Host "https://github.com/raspyydev/Game-Configs/tree/main/Call%20of%20Duty" -ForegroundColor Yellow
     exit 1
@@ -264,7 +264,7 @@ Remove-Item "$env:SystemRoot\Temp\BO7" -Recurse -Force -ErrorAction SilentlyCont
 Remove-Item "$env:SystemRoot\Temp\BO7.zip" -Recurse -Force -ErrorAction SilentlyContinue | Out-Null
 
 # message
-Write-Host "Call of Duty Black Ops 7 config applied . . ."
+Write-Host "Call of Duty Black Ops 7/Warzone config applied . . ."
 Write-Host ""
 Write-Host "Always select 'no' for 'Set Optimal Settings & Run In Safe Mode'"
 Write-Host ""

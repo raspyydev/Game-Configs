@@ -95,7 +95,7 @@ show-menu
 
 Clear-Host
 # show list
-Write-Host "1. Call of Duty Black Ops 7"
+Write-Host "1. Call of Duty Black Ops 7/Warzone"
 Write-Host "2. Call of Duty Black Ops 6 & WZ"
 Write-Host "3. Call of Duty Modern Warfare 3 2023"
 Write-Host "4. Call of Duty Modern Warfare 2 2022"
